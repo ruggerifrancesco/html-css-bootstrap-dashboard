@@ -60,6 +60,9 @@
             background-color: var(--color-main-head-bg); 
             height: var(--my-main-header-h-576px); 
         }
+            .my_offcanvas-w {
+                width: 100%;
+            }
 
         /* Custom Media Querys */
         @media screen and (min-width: 576px) {
