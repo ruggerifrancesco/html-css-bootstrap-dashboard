@@ -2,6 +2,10 @@
 :root {
 
     /* Color Scheme */
+    --color-aside-bg: #051e34;
+    --color-header-bg: #f8f9fa;
+    --color-main-bg: #f8f9fa;
+    --color-main-head-bg: #1b72e8;
 
     /* Header Bar Section */
     --my-header-h: 80px;
@@ -11,6 +15,8 @@
     --my-aside-w-992px: 180px;
 
     /* Main Content */
+    --my-main-header-h: 140px;
+    --my-main-header-h-576px: 200px;
 }
 
 /* -- CSS Begin -- */
@@ -18,6 +24,7 @@
     /* Header Bar Section */
     .my_header {
         height: var(--my-header-h);
+        background-color: var(--color-header-bg);
     }
 
         /* Custom Media Querys */
@@ -26,6 +33,8 @@
     .my_aside {
         height: calc(100vh - var(--my-header-h));
         width: var(--my-aside-w);
+        background-image: url(../img/sidebar-bg.png);
+        background-color: var(--color-aside-bg);
     }
 
         /* Custom Media Querys */
@@ -39,9 +48,19 @@
     .my_main {
         height: calc(100vh - var(--my-header-h));
         width: calc(100% - var(--my-aside-w));
+        background-color: var(--color-main-bg);
     }
+        .my_header-main {
+            background-color: var(--color-main-head-bg); 
+            height: var(--my-main-header-h-576px); 
+        }
 
         /* Custom Media Querys */
+        @media screen and (min-width: 576px) {
+            .my_header-main {
+                height: var(--my-main-header-h); 
+            }
+        }
         @media screen and (min-width: 992px){
             .my_main {
                 width: calc(100% - var(--my-aside-w-992px));
