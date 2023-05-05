@@ -1,20 +1,38 @@
 /*-- Root Section -- */
 :root {
+
+    /* Color Scheme */
+
+    /* Header Bar Section */
+    --my-header-h: 80px;
+
+    /* Aside Bar Section */
+    --my-aside-w: 80px;
+
+    /* Main Content */
 }
 
 /* -- CSS Begin -- */
 
     /* Header Bar Section */
     .my_header {
-        height: 100px;
+        height: var(--my-header-h);
     }
+
+        /* Custom Media Querys */
 
     /* Aside Bar Section */
     .my_aside {
-
+        height: calc(100vh - var(--my-header-h));
+        width: var(--my-aside-w);
     }
+
+        /* Custom Media Querys */
 
     /* Main Content */
     .my_main {
-
+        height: calc(100vh - var(--my-header-h));
+        width: calc(100% - var(--my-aside-w));
     }
+
+        /* Custom Media Querys */
