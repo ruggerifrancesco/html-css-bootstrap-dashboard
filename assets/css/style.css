@@ -1,3 +1,8 @@
+/* All Tags Outline */
+* {
+    /* outline: 1px solid red; */
+}
+
 /*-- Root Section -- */
 :root {
 
@@ -49,6 +54,7 @@
         height: calc(100vh - var(--my-header-h));
         width: calc(100% - var(--my-aside-w));
         background-color: var(--color-main-bg);
+        overflow-y: scroll;
     }
         .my_header-main {
             background-color: var(--color-main-head-bg); 
