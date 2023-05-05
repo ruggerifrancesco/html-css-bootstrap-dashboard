@@ -8,6 +8,7 @@
 
     /* Aside Bar Section */
     --my-aside-w: 80px;
+    --my-aside-w-992px: 180px;
 
     /* Main Content */
 }
@@ -28,6 +29,11 @@
     }
 
         /* Custom Media Querys */
+        @media screen and (min-width: 992px){
+            .my_aside {
+                width: var(--my-aside-w-992px);
+            }
+        }
 
     /* Main Content */
     .my_main {
@@ -36,3 +42,8 @@
     }
 
         /* Custom Media Querys */
+        @media screen and (min-width: 992px){
+            .my_main {
+                width: calc(100% - var(--my-aside-w-992px));
+            }
+        }
