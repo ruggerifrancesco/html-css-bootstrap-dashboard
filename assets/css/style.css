@@ -60,7 +60,7 @@
             background-color: var(--color-main-head-bg); 
             height: var(--my-main-header-h-576px); 
         }
-            .my_offcanvas-w {
+            .offcanvas.offcanvas-end {
                 width: 100%;
             }
 
@@ -73,5 +73,8 @@
         @media screen and (min-width: 992px){
             .my_main {
                 width: calc(100% - var(--my-aside-w-992px));
+            }
+            .offcanvas.offcanvas-end {
+                width: 50%;
             }
         }
