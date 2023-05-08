@@ -115,6 +115,11 @@ span {
             .offcanvas.offcanvas-end {
                 width: 100%;
             }
+        
+        /* Table Section */
+        .my_c-avatar-container {
+            width: 35px;
+        }
 
         /* Custom Media Querys */
         @media screen and (min-width: 576px) {
