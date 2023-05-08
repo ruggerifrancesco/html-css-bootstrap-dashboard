@@ -68,6 +68,10 @@
                 align-items: center;
                 justify-content: space-between;
             }
+            .my_logo-container {
+                align-items: center;
+                width: 100%;
+            }
         }
 
     /* Aside Bar Section */
