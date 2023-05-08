@@ -1,6 +1,6 @@
 /* All Tags Outline */
 * {
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 /*-- Root Section -- */
@@ -53,10 +53,20 @@ span {
     .my_header {
         height: var(--my-header-h);
         background-color: var(--color-header-bg);
+        width: 100%;
     }
     .nav-bar {
         padding: 10px 0;
     }
+        .my_logo-section {
+            flex: 1 1 10%;
+        }
+        .my_search-bar {
+            flex: 2 1 80%;
+        }
+        .my_user-list-container {
+            flex: 1 1 10%;
+        }
 
         /* Search Bar */
         .has-search .form-control {
@@ -78,8 +88,6 @@ span {
         /* User BTN Section */
         .my_user-btn-list {
             display: flex;
-            align-items: center;
-            justify-content: center;
         }
 
 
@@ -166,6 +174,9 @@ span {
             .my_main {
                 width: calc(100% - var(--my-aside-w-1200px));
             }
+            .my_header-main {
+                padding: 2rem 0 2rem;
+            }    
             .offcanvas.offcanvas-end {
                 width: 50%;
             }
