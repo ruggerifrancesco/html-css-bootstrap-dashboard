@@ -143,6 +143,9 @@ span {
             .offcanvas.offcanvas-end {
                 width: 100%;
             }
+        .my_current_plan {
+            font-size: 0.8rem;
+        }
         
         .my_main_cards {
             margin-top: 2rem;
