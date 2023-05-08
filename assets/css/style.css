@@ -17,7 +17,7 @@
 
     /* Aside Bar Section */
     --my-aside-w: 80px;
-    --my-aside-w-992px: 130px;
+    --my-aside-w-1200px: 130px;
 
     /* Main Content */
     --my-main-header-h: 140px;
@@ -61,7 +61,7 @@
 
 
         /* Custom Media Querys */
-        @media screen and (min-width: 992px) {
+        @media screen and (min-width: 1200px) {
             .my_user-btn-list {
                 display: flex;
                 align-items: center;
@@ -78,9 +78,9 @@
     }
 
         /* Custom Media Querys */
-        @media screen and (min-width: 992px){
+        @media screen and (min-width: 1200px){
             .my_aside {
-                width: var(--my-aside-w-992px);
+                width: var(--my-aside-w-1200px);
             }
         }
 
@@ -105,9 +105,9 @@
                 height: var(--my-main-header-h); 
             }
         }
-        @media screen and (min-width: 992px){
+        @media screen and (min-width: 1200px){
             .my_main {
-                width: calc(100% - var(--my-aside-w-992px));
+                width: calc(100% - var(--my-aside-w-1200px));
             }
             .offcanvas.offcanvas-end {
                 width: 50%;
