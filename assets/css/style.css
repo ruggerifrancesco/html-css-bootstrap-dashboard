@@ -78,8 +78,6 @@ span {
         /* Custom Media Querys */
         @media screen and (min-width: 1200px) {
             .my_user-btn-list {
-                display: flex;
-                align-items: center;
                 justify-content: space-between;
             }
             .my_logo-container {
