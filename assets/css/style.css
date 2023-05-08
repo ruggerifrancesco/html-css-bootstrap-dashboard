@@ -56,11 +56,16 @@ span {
         width: 100%;
     }
     .nav-bar {
-        align-items: center;
         height: 100%;
+        align-items: center;
     }
         .my_logo-section {
             flex: 1 1 15%;
+            padding: 0 1rem;
+        }
+        .my_logo-section > img {
+            object-fit: contain;
+            height: 38px;
         }
         .my_search-bar {
             flex: 2 1 70%;
@@ -68,6 +73,13 @@ span {
         .my_user-list-container {
             flex: 1 1 15%;
         }
+
+        .my_logo-section,
+        .my_search-bar,
+        .my_user-list-container {
+            background-color: white;
+        }
+
 
         /* Search Bar */
         .has-search .form-control {
