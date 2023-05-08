@@ -12,6 +12,8 @@
     --color-main-bg: #f8f9fa;
     --color-main-head-bg: #1b72e8;
 
+    --color-table-icons: #6c757d;
+
     /* Header Bar Section */
     --my-header-h: 60px;
 
@@ -119,6 +121,11 @@ span {
         /* Table Section */
         .my_c-avatar-container {
             width: 35px;
+        }
+        .my_action-btn {
+            color: var(--color-table-icons);
+            border: 1px solid var(--color-table-icons);
+            padding: 0.275rem 0.5rem;
         }
 
         /* Custom Media Querys */
