@@ -118,6 +118,10 @@ span {
                 width: 100%;
             }
         
+        .my_main_cards {
+            margin-top: 2rem;
+        }
+        
         /* Table Section */
         .my_c-avatar-container {
             width: 35px;
