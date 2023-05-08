@@ -138,6 +138,7 @@ span {
     }
         .my_header-main {
             background-color: var(--color-main-head-bg); 
+            padding: 2rem 0 3rem;
         }
             .offcanvas.offcanvas-end {
                 width: 100%;
