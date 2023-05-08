@@ -17,7 +17,7 @@
 
     /* Aside Bar Section */
     --my-aside-w: 80px;
-    --my-aside-w-1200px: 130px;
+    --my-aside-w-1200px: 160px;
 
     /* Main Content */
     --my-main-header-h: 140px;
@@ -35,6 +35,10 @@ img {
 ul, a {
     text-decoration: none;
     list-style: none;
+}
+
+span {
+    display: block;
 }
 
     /* Header Bar Section */
@@ -55,7 +59,6 @@ ul, a {
         .has-search .form-control-serch-icon {
             position: absolute;
             z-index: 2;
-            display: block;
             width: 2.375rem;
             height: 2.375rem;
             line-height: 2.375rem;
