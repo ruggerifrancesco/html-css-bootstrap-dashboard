@@ -38,9 +38,10 @@
         /* Search Bar */
         .has-search .form-control {
             padding-left: 2.375rem;
+            background-color: #e5e5e5;
         }
         
-        .has-search .form-control-feedback {
+        .has-search .form-control-serch-icon {
             position: absolute;
             z-index: 2;
             display: block;
@@ -49,7 +50,7 @@
             line-height: 2.375rem;
             text-align: center;
             pointer-events: none;
-            color: #aaa;
+            color: black;
         }
 
         /* User BTN Section */
