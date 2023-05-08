@@ -1,6 +1,6 @@
 /* All Tags Outline */
 * {
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 /*-- Root Section -- */
@@ -95,11 +95,23 @@ span {
         background-image: url(../img/sidebar-bg.png);
         background-color: var(--color-aside-bg);
     }
+        .my_as-list-item {
+            color: white;
+            font-size: 1.2rem;
+        }
+        .my_admin-panel {
+           margin-top: 5rem; 
+           display: flex;
+           justify-content: center;
+        }
 
         /* Custom Media Querys */
         @media screen and (min-width: 1200px){
             .my_aside {
                 width: var(--my-aside-w-1200px);
+            }
+            .my_admin-panel {
+                justify-content: flex-start;
             }
         }
 
