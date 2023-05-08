@@ -1,6 +1,6 @@
 /* All Tags Outline */
 * {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 /*-- Root Section -- */
@@ -41,6 +41,12 @@ ul, a {
 
 span {
     display: block;
+}
+
+.my_overflow-text {
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
     /* Header Bar Section */
@@ -112,6 +118,14 @@ span {
             }
             .my_admin-panel {
                 justify-content: flex-start;
+            }
+            #my_btn-home,
+            #my_btn-signals,
+            #my_btn-admin {
+                padding-left: 0.6rem;
+            }
+            #my_btn-stats {
+                padding-left: 1rem; 
             }
         }
 
