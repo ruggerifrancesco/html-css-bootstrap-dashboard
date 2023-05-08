@@ -161,11 +161,6 @@ span {
         }
 
         /* Custom Media Querys */
-        @media screen and (min-width: 576px) {
-            .my_header-main {
-                height: var(--my-main-header-h); 
-            }
-        }
         @media screen and (min-width: 1200px){
             .my_main {
                 width: calc(100% - var(--my-aside-w-1200px));
