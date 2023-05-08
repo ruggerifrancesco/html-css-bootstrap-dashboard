@@ -1,6 +1,6 @@
 /* All Tags Outline */
 * {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 /*-- Root Section -- */
@@ -56,16 +56,15 @@ span {
         width: 100%;
     }
     .nav-bar {
-        padding: 10px 0;
     }
         .my_logo-section {
-            flex: 1 1 10%;
+            flex: 1 1 15%;
         }
         .my_search-bar {
-            flex: 2 1 80%;
+            flex: 2 1 70%;
         }
         .my_user-list-container {
-            flex: 1 1 10%;
+            flex: 1 1 15%;
         }
 
         /* Search Bar */
@@ -92,8 +91,21 @@ span {
 
 
         /* Custom Media Querys */
+        @media screen and (min-width: 568px) {
+            .my_logo-section {
+                flex: 1 1 10%;
+            }
+            .my_search-bar {
+                flex: 2 1 80%;
+            }
+            .my_user-list-container {
+                padding: 0 1rem;
+                flex: 1 1 10%;
+            }    
+        }
         @media screen and (min-width: 1200px) {
             .my_user-btn-list {
+                align-items: center;
                 justify-content: space-between;
             }
             .my_logo-container {
