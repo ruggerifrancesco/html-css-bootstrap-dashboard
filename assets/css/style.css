@@ -26,6 +26,17 @@
 
 /* -- CSS Begin -- */
 
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ul, a {
+    text-decoration: none;
+    list-style: none;
+}
+
     /* Header Bar Section */
     .my_header {
         height: var(--my-header-h);
