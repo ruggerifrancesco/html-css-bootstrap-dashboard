@@ -79,6 +79,22 @@ span {
         .my_user-list-container {
             background-color: white;
         }
+        /* DropDown Section */
+            .dropdown-toggle::after {
+                display: none;
+            }
+            .my_btn-dropdown {
+                color: #ff8f00;
+                background-color: transparent;
+                border: none;
+                padding: 0;
+            }
+            .my_btn-dropdown:hover {
+                color: #ffc107;
+                background-color: transparent;
+                border: none;
+                padding: 0;
+            }
 
 
         /* Search Bar */
