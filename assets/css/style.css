@@ -72,6 +72,7 @@ span {
         }
         .my_user-list-container {
             flex: 1 1 15%;
+            height: 38px;
         }
 
         .my_logo-section,
@@ -116,8 +117,10 @@ span {
 
         /* User BTN Section */
         .my_user-btn-list {
-            display: flex;
+            align-items: center;
+            justify-content: center;
         }
+            
 
 
         /* Custom Media Querys */
