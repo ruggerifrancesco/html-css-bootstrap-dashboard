@@ -28,6 +28,10 @@
 
 /* -- CSS Begin -- */
 
+::selection {
+    background-color: rgba(32, 32, 32, 0.1);
+}
+
 img {
     width: 100%;
     height: auto;
